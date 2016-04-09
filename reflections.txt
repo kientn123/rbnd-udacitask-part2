@@ -2,12 +2,27 @@
 # -------------------------------------------------------
 1. What is the gem of your choice and how did you use it?
 2. Describe the 2 features you added to the project.
-  a) Feature 1...
-  b) Feature 2...
+  a) Feature 1
+    Users will be able to change the priority of a todo item
+    change_priority method was implemented in todo.rb
+  b) Feature 2
+    Users will be able to print out the list of items nicely
+    in a table using Formatador gemt
+    pretty_print method was implemented in udacilist.rb
 
 # REFLECTIONS
 # -------------------------------------------------------
 1. How long did you spend working on this project?
+  2 hours
 2. What was the most rewarding challenge you conquered?
+  I get to experiment with Formatador gem, which was really fun
 3. What two additional features did you build? Why?
+  + Feature 1: Users will be able to change the priority of a todo item
+  Because sometimes things change unexpectedly and you have to change the
+  priority of things you work on
+
+  + Feature 2: Users will be able to print out the list of items nicely
+  Users want to see data displayed nicely
 4. Where do you still have room to grow?
+  Adding more item types to the list.
+  Experimenting with more suggested Ruby gems.
