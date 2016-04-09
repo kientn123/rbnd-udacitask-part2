@@ -1,14 +1,19 @@
 # What you added to Udacitask 2.0
 # -------------------------------------------------------
 1. What is the gem of your choice and how did you use it?
+  The gem of my choice is formatador
+  I used it to print the list title in the "all" medthod of Udacilist
 2. Describe the 2 features you added to the project.
   a) Feature 1
-    Users will be able to change the priority of a todo item
-    change_priority method was implemented in todo.rb
+    - Users will be able to find what is the earliest upcoming events in their schedule
+    If the start_date of the event is nil, then we consider the event has not been
+    scheduled yet. We only compare events with start_date given.
+    - "earliest_upcoming_event" method was implemented in udacilist.rb
   b) Feature 2
     Users will be able to print out the list of items nicely
     in a table using Formatador gemt
-    pretty_print method was implemented in udacilist.rb
+    "pretty_print" method was implemented in udacilist.rb
+    This feature is can be considered as "Using your third gem in an interesting way"
 
 # REFLECTIONS
 # -------------------------------------------------------

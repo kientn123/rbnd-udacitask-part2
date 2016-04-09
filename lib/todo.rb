@@ -21,10 +21,4 @@ class TodoItem
     "todo"
   end
 
-  def change_priority(priority)
-    if @priority != priority && ["low", "medium", "high"].include?(priority)
-      @priority = priority
-    end
-  end
-
 end

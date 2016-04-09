@@ -46,13 +46,22 @@ class UdaciList
     table_data = []
     @items.each_with_index do |item, index|
       row = {
-        position: index,
+        position: index + 1,
         type: item.get_type,
         details: item.details
       }
       table_data << row
     end
     Formatador.display_table(table_data, [:position, :type, :details])
+  end
+
+  def earliest_upcoming_event
+    events = filter("event")
+    events.select! {|event| !event.start_date.nil?}
+    if events.length > 0
+      return events.min {|event1, event2| event1.start_date <=> event2.start_date}
+    end
+    "no upcoming events or events are not scheduled yet!"
   end
 
 end

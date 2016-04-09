@@ -46,3 +46,6 @@ new_list.all
 # DEMO FILTER BY ITEM TYPE
 # ------------------------
 new_list.filter("event")
+
+# puts new_list.earliest_upcoming_event.start_date
+# puts new_list.pretty_print
